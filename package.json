@@ -1,0 +1,13 @@
+{
+  "name": "customer-experience-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Customer Experience Library: churn reasons, hypotheses, impact sizings and technical necessities with automated overlap and validity screening.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/checks.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2", "pg": "^8.12.0" }
+}
